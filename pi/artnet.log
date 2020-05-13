@@ -1,0 +1,7 @@
+Press Ctrl-C to quit.
+Traceback (most recent call last):
+  File "/home/pi/artnet.py", line 61, in <module>
+    sock.bind((UDP_IP, UDP_PORT))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 99] Cannot assign requested address
